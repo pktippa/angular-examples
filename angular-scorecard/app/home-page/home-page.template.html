@@ -1,0 +1,16 @@
+<div>
+    <h2>{{$ctrl.cardName}}</h2>
+    <ul>
+    <li ng-repeat="card in $ctrl.cardDetails">
+        {{card}}
+    </li>
+    </ul>
+    <div ng-hide="$ctrl.showScoreDiv">
+        Input Score : <input ng-model="$ctrl.inputScore">
+    </div>
+    <div ng-hide="$ctrl.showFinalScore">
+        <h3>Final Score : {{ $ctrl.score }}</h3>
+    </div>
+    <button ng-hide="$ctrl.showUpdateCard" ng-click="$ctrl.updateAndNextCard()">Update Card</button>
+</div>
+      

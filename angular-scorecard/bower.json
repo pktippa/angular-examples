@@ -1,0 +1,13 @@
+{
+  "name": "angular-scorecard",
+  "description": "AngularJS scorecard",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "bootstrap": "3.3.x"
+  }
+}

@@ -1,0 +1,9 @@
+logs/*
+!.gitkeep
+node_modules/
+tmp
+.idea
+.DS_Store
+angular-scorecard-snapshots
+bower_components/
+.vscode
