@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "bower": ">=1.8.8",
-    "ecstatic": ">=2.2.2",
+    "ecstatic": ">=4.1.4",
     "http-server": "^0.11.1"
   },
   "scripts": {
